@@ -1,0 +1,16 @@
+I struggled at the beginning of this project to understand functional programming
+enough to handle the assignment. The idea of creating a function that returned
+another function based on functions in the parameters didn't make sense to me 
+at first, especially with recursion thrown in. However once I wrapped my head 
+around it I was able to start. My first attempt tried to map about the entire
+grammar given the input and return a matcher. However this didn't work on
+recursive languages since it is impossible to map out all possible fragments.
+I realized that most of the functionality shouldnt actually execute until the
+fragment is inputted, so I changed my function to return a function that
+would take the acceptor and fragment then map out the grammar alongside the
+fragment.
+
+One of the weaknesses of this function is if the grammar is arranged such that
+recursive rules do not have a terminal before the recursively called nonterminal,
+the matcher will endlessly loop through that recursive rule (or set of rules)
+without consuming any of the fragment.

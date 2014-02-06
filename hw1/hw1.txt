@@ -1,0 +1,40 @@
+I attempted several different implementations for the blind alleys problem. I 
+knew that the easiest way to define a blind alley rule was that either its
+nonterminal value cannot be reached from the grammars start symbol or not all
+the symbols on the right hand side can reach terminal symbols using the rest of
+the rules in the grammar. So first I tried two implement 2 functions: one that
+would test if a rule is reachable and one that tests if its right hand side
+completely terminates. 
+
+Unfortunately I found this approach to be too cumbersome and not a good fit for
+a functional language. Then I realized that since I would have to iterate 
+through all the rules starting with a nonterminal symbol in order to test if the
+ rules can terminate, I could start this recursive symbol test at the start 
+symbol and that would naturally exclude any symbols unreachable from the start
+symbol. 
+
+Next I tried 3 a function approach: one that takes a single symbol and tests 
+any rules with the symbol as its left side, one that takes a rule and tests the 
+symbols on the right hand side, and one that takes a list of symbols and returns 
+a list of rules only if they all reach terminal symbols. However this approach 
+did not work because all 3 functions needed to recusrively call each other in a
+loop. So I consolidated the functionality of all 3 into a single recursive 
+function that actually ended up being easier to follow.
+
+The function filter_symbols takes a list of symbols and a list of rules. If 
+there is only a single symbol it gets a list of rules that have that symbol on 
+the left hand side and calls itself on each rule's right hand sides with the 
+rule removed from the rule list to prevent an infinite loop. If there is a list
+of symbols it calls itself on each symbol and if each call retuns a non empty
+list of rules it returns the concatenated list of rules.
+
+I figured from the prompt that we were supposed to use the fixed point method
+to help solve this problem. I started writing out a method would use it but I
+thought it would be impossible since I needed the function to return 2 values in
+order for it to work. By the time I realized I could have the function return a
+tuple I had already made considerable progress on the method I ended up with so
+I never returned to the idea.
+
+
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+         1         2         3         4         5         6         7         8
