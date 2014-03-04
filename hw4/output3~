@@ -1,0 +1,130 @@
+Unsynchronized
+Threads average 2648.97 ns/transition
+sum mismatch (2000 != 8260)
+Synchronized
+Threads average 10852.1 ns/transition
+GetNSet
+Threads average 7019.05 ns/transition
+sum mismatch (2000 != 2598)
+BetterSafe
+Threads average 6472.55 ns/transition
+BetterSorry
+Threads average 2967.38 ns/transition
+sum mismatch (2000 != 224)
+Unsynchronized
+Threads average 2716.30 ns/transition
+sum mismatch (2000 != 6985)
+Synchronized
+Threads average 11306.8 ns/transition
+GetNSet
+Threads average 5040.98 ns/transition
+sum mismatch (2000 != 1591)
+BetterSafe
+Threads average 6499.41 ns/transition
+BetterSorry
+Threads average 3592.74 ns/transition
+sum mismatch (2000 != 281)
+Unsynchronized
+Threads average 3330.29 ns/transition
+sum mismatch (2000 != 7095)
+Synchronized
+Threads average 10942.6 ns/transition
+GetNSet
+Threads average 5345.62 ns/transition
+sum mismatch (2000 != 1983)
+BetterSafe
+Threads average 7483.64 ns/transition
+BetterSorry
+Threads average 3771.43 ns/transition
+sum mismatch (2000 != 427)
+Unsynchronized
+Threads average 2522.95 ns/transition
+sum mismatch (2000 != 7188)
+Synchronized
+Threads average 11737.0 ns/transition
+GetNSet
+Threads average 5674.18 ns/transition
+sum mismatch (2000 != 1582)
+BetterSafe
+Threads average 6997.53 ns/transition
+BetterSorry
+Threads average 3457.20 ns/transition
+sum mismatch (2000 != 92)
+Unsynchronized
+Threads average 3216.65 ns/transition
+sum mismatch (2000 != 7637)
+Synchronized
+Threads average 11221.1 ns/transition
+GetNSet
+Threads average 6156.76 ns/transition
+sum mismatch (2000 != 2750)
+BetterSafe
+Threads average 7554.94 ns/transition
+BetterSorry
+Threads average 3942.55 ns/transition
+sum mismatch (2000 != 244)
+Unsynchronized
+Threads average 3293.54 ns/transition
+sum mismatch (2000 != 7198)
+Synchronized
+Threads average 10965.0 ns/transition
+GetNSet
+Threads average 6505.71 ns/transition
+sum mismatch (2000 != 1321)
+BetterSafe
+Threads average 6914.49 ns/transition
+BetterSorry
+Threads average 2906.80 ns/transition
+sum mismatch (2000 != 215)
+Unsynchronized
+Threads average 2776.33 ns/transition
+sum mismatch (2000 != 6986)
+Synchronized
+Threads average 11297.5 ns/transition
+GetNSet
+Threads average 5192.39 ns/transition
+sum mismatch (2000 != 2193)
+BetterSafe
+Threads average 6836.55 ns/transition
+BetterSorry
+Threads average 3575.10 ns/transition
+sum mismatch (2000 != 147)
+Unsynchronized
+Threads average 2990.50 ns/transition
+sum mismatch (2000 != 5535)
+Synchronized
+Threads average 10659.0 ns/transition
+GetNSet
+Threads average 6344.98 ns/transition
+sum mismatch (2000 != 1887)
+BetterSafe
+Threads average 6388.05 ns/transition
+BetterSorry
+Threads average 3327.79 ns/transition
+sum mismatch (2000 != 110)
+Unsynchronized
+Threads average 2500.05 ns/transition
+sum mismatch (2000 != 7289)
+Synchronized
+Threads average 11254.7 ns/transition
+GetNSet
+Threads average 6155.31 ns/transition
+sum mismatch (2000 != 1607)
+BetterSafe
+Threads average 7627.19 ns/transition
+BetterSorry
+Threads average 3113.59 ns/transition
+sum mismatch (2000 != 115)
+Unsynchronized
+Threads average 3052.42 ns/transition
+sum mismatch (2000 != 6959)
+Synchronized
+Threads average 11332.8 ns/transition
+GetNSet
+Threads average 5459.31 ns/transition
+sum mismatch (2000 != 1624)
+BetterSafe
+Threads average 6164.94 ns/transition
+BetterSorry
+Threads average 3460.68 ns/transition
+sum mismatch (2000 != 101)
