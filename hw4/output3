@@ -13,6 +13,7 @@ Threads average 6472.55 ns/transition
 BetterSorry
 Threads average 2967.38 ns/transition
 sum mismatch (2000 != 224)
+
 Unsynchronized
 Threads average 2716.30 ns/transition
 sum mismatch (2000 != 6985)
@@ -26,6 +27,7 @@ Threads average 6499.41 ns/transition
 BetterSorry
 Threads average 3592.74 ns/transition
 sum mismatch (2000 != 281)
+
 Unsynchronized
 Threads average 3330.29 ns/transition
 sum mismatch (2000 != 7095)
@@ -39,6 +41,7 @@ Threads average 7483.64 ns/transition
 BetterSorry
 Threads average 3771.43 ns/transition
 sum mismatch (2000 != 427)
+
 Unsynchronized
 Threads average 2522.95 ns/transition
 sum mismatch (2000 != 7188)
@@ -52,6 +55,7 @@ Threads average 6997.53 ns/transition
 BetterSorry
 Threads average 3457.20 ns/transition
 sum mismatch (2000 != 92)
+
 Unsynchronized
 Threads average 3216.65 ns/transition
 sum mismatch (2000 != 7637)
@@ -65,6 +69,7 @@ Threads average 7554.94 ns/transition
 BetterSorry
 Threads average 3942.55 ns/transition
 sum mismatch (2000 != 244)
+
 Unsynchronized
 Threads average 3293.54 ns/transition
 sum mismatch (2000 != 7198)
@@ -78,6 +83,7 @@ Threads average 6914.49 ns/transition
 BetterSorry
 Threads average 2906.80 ns/transition
 sum mismatch (2000 != 215)
+
 Unsynchronized
 Threads average 2776.33 ns/transition
 sum mismatch (2000 != 6986)
@@ -91,6 +97,7 @@ Threads average 6836.55 ns/transition
 BetterSorry
 Threads average 3575.10 ns/transition
 sum mismatch (2000 != 147)
+
 Unsynchronized
 Threads average 2990.50 ns/transition
 sum mismatch (2000 != 5535)
@@ -104,6 +111,7 @@ Threads average 6388.05 ns/transition
 BetterSorry
 Threads average 3327.79 ns/transition
 sum mismatch (2000 != 110)
+
 Unsynchronized
 Threads average 2500.05 ns/transition
 sum mismatch (2000 != 7289)
@@ -117,6 +125,7 @@ Threads average 7627.19 ns/transition
 BetterSorry
 Threads average 3113.59 ns/transition
 sum mismatch (2000 != 115)
+
 Unsynchronized
 Threads average 3052.42 ns/transition
 sum mismatch (2000 != 6959)
