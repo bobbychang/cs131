@@ -1,2 +1,11 @@
 Homework 5
 
+To solve this homework problem I used continuations whenever the matcher had
+more than one possible match. This continuation would become the most recent
+backtrack location and I would then pass it to any matcher methods called
+afterwards. Once a match was found in the scope of the current function,
+the backtrack location would be passed as the tail of the return value. If at
+any point the matcher could not match the input fragment to its current pattern,
+then (backtrack) is called, bringing execution back to the last continuation.
+This continuation will be return false and cause the matcher to consider the
+next option until all backtrack locations are exhausted.
