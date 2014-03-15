@@ -1,0 +1,15 @@
+from tweetyserver import TweetyServer
+from tweetyserver import TweetyServerFactory
+
+from twisted.internet import protocol
+from twisted.application import service, internet
+
+factory = protocol.Factory()
+factory.protocol = TweetyServer
+factory.name = "Hill"
+factory.clientLocations = {}
+factory.serverConnections = {}
+
+application = service.Application("hill")
+
+internet.TCPServer(12460, factory).setServiceParent(application)
